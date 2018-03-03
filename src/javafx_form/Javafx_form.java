@@ -65,7 +65,7 @@ public class Javafx_form extends Application {
            actiontarget.setFill(Color.FIREBRICK);
            actiontarget.setText("Sign in button pressed");
         });
-        
+        scene.getStylesheets().add(Javafx_form.class.getResource("login.css").toExternalForm());
         primaryStage.setTitle("JavaFX Login Form");
         primaryStage.setScene(scene);
         primaryStage.show();
